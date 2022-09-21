@@ -1,0 +1,36 @@
+/* login page-1 css */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+#formdetails{
+    margin-top: 7.5%;
+    text-align: center;
+    margin-left: 6%;
+}
+
+#displayimg{
+    width: 49.5vw;
+    height: 100vh;
+}
+
+#imgbg{
+    background-color: #7EAFAD;
+}
+
+#h2{
+    text-align: center;
+}
+
+#proceed{
+    color: black;
+    text-decoration: none;
+}
+
+#proceed:hover{
+    color: white;
+}

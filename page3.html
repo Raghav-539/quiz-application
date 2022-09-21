@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link type="image/png" sizes="96x96" rel="icon" href="./images/icons8-quiz-96.png">
+    
+    <title> Quiz App </title>
+    
+    <!-- Bootstrap CSS only -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+
+    <!-- external css  -->
+    <link rel="stylesheet" href="./css/page3.css">
+    
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- quiz page -->
+
+    <!-- navbar -->
+
+    <div id="quiz-application">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./page1.html"> <img src="./images/logo.png" id="logo"> IQ Checker </a>            
+            </div>
+            
+        </nav>
+
+            <div class="container">
+                <div class="quiz-box">
+                    <div id="quiz">
+                        <h1>IQ Checker App</h1>
+                        <div class="quiz-header">
+                            <p id="progress">Question x </p>
+                            <h4 id="ten-countdown"> </h4>
+
+                        </div>
+
+                        <p id="question"></p>
+                        
+                        <div class="buttons">
+                            <button class="btn" id="btn0">A. <span id="choice0"></span></button>
+                            <button class="btn" id="btn1">B. <span id="choice1"></span></button>
+                            <button class="btn" id="btn2">C. <span id="choice2"></span></button>
+                            <button class="btn" id="btn3">D. <span id="choice3"></span></button>
+                        </div>
+        
+                        <hr>
+                        <footer>
+                            <p> <strong> <i> IQ Checker </i> </strong> </p>
+                        </footer>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- external js -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    
+    <script src="./quiz-app.js"></script>
+
+</body>
+
+</html>

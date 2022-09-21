@@ -1,0 +1,58 @@
+
+/* instructions page-2 css */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+#instructions{
+    background-color: #EEFFFE ;
+    height: 100vh;
+    width: 50%;
+}
+
+#heading{
+    margin: 2%;
+    font-weight: bold;
+    text-align: center;
+}
+
+#displayimg{
+    width: 49.5vw;
+    height: 100vh;
+}
+
+#imgbg{
+    background-color: #7EAFAD;
+}
+
+#h3{
+    text-align: center;
+}
+
+table{
+    margin-top: 1%;
+}
+
+table,h5,h6{
+    margin-left: 2%;
+}
+
+hr{
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 40px auto;
+}
+
+#proceed_test-btn{
+    margin-left: 47%;
+    margin-bottom: 2%;
+}
+
+
+

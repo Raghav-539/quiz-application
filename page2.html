@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link type="image/png" sizes="96x96" rel="icon" href="./images/icons8-quiz-96.png">
+    
+    <title> Quiz App </title>
+    
+    <!-- bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+    <!-- external css  -->
+    <link rel="stylesheet" href="./css/page2.css">
+    
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- information page -->
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- navbar -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="./page1.html"> <img src="./images/logo.png" id="logo"> IQ Checker </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./page1.html">Register Again </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- img  -->
+                <div class="col-lg-6" id="imgbg">
+                    <img src="./images/information-img.png" id="displayimg">
+                </div>
+
+                <!-- instructions -->
+                <div id="instructions" class="col-lg-4">
+
+                    <div >
+                        <h2 id="heading"> Welcome To Quiz App <sub>  (Let's check your IQ 😎)  </sub></h2>
+                        <h3 id="h3"> Some Information Regarding your Test. </h3>
+                        <table  cellpadding="5">
+                            <tr> 
+                                <th> Orgainzed By: </th>
+                                <td> IQ Checker </td>
+                            </tr>
+                            <tr> 
+                                <th> Duration: </th>
+                                <td> 10 minutes </td>
+                            </tr>
+                    
+                        </table>
+                        <hr>
+                        <h5> <b> Description: </b> </h5>
+                        <h6> This test is hosted by IQ Checker. Please read the instructions carefully before proceeding. </h6>
+                        <hr>
+                        <h5> <b> Instructions: </b> </h5>
+                        <h6> 1. Make sure you enter correct personal details - Name, Father Name, Email-Id, Contact Number. </h6>
+                        <h6> 2. Test duration is 10 minutes. </h6>
+                        <h6> 3. You can visit a question once. </h6>
+                        <h6> 4. You can skip any question. </h6>
+                        <h6> 5. Make sure to submit yout test. </h6>
+                        <h6> 6. Best of luck from <strong> <i> IQ Checker </i> </strong> . </h6>
+                        <br>
+                        <a href="./page3.html" id="proceed"> <button type="button" class="btn btn-outline-dark" id="proceed_test-btn">  Proceed to test  </button> </a>
+            
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- external js -->
+    <!-- <script src="./quiz-app.js"></script> -->
+
+</body>
+
+</html>
